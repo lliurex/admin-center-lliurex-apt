@@ -1,0 +1,10 @@
+{
+  "id": "lliurex-apt",
+  "version": "0.1",
+  "name": "LliureX APT",
+  "description": "llx.apt.description",
+  "main":"main.html",
+  "icon":"lliurex-apt-icon.png",
+  "banner":"lliurex-apt-banner.png",
+  "components": []
+}

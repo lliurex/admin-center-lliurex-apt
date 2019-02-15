@@ -1,0 +1,29 @@
+{
+  "messages" : {
+    "" : {
+      "domain" : "lliurex-apt",
+      "lang"   : "es-ES",
+      "plural_forms" : "nplurals=2; plural=(n != 1);"
+    },
+          "lliurex-apt.repositorisLocals":["Repositorios locales"],
+          "lliurex-apt.repositorisServidorAula":["Repositorios del servidor de aula"],
+          "lliurex-apt.habilitarRepositori":["Habilitar repositorios"],
+          "lliurex-apt.nom":["Nombre"],
+          "lliurex-apt.repositori":["Repositorio"],
+          "lliurex-apt.repositoris":["Repositorios"],
+          "lliurex-apt.afegirRepositori":["Añadir repositorio"],
+          "lliurex-apt.cancelar":["Cancelar"],
+          "lliurex-apt.actualitzantFontsPaquets":["Actualizando fuentes de paquetes"],
+          "lliurex-apt.espereuUnMoment":["Espera un momento"],
+          "lliurex-apt.repositorisLliureX":["Repositorios LliureX"],
+          "lliurex-apt.respositorisGVA":["Repositorios de GVA"],
+          "lliurex-apt.repositorisEducatius":["Repositorios de recursos educativos"],
+          "lliurex-apt.respositorisUbuntu":["Repositorios de Ubuntu"],
+          "lliurex-apt.acceptar":["Aceptar"],
+          "lliurex-apt.opcions":["Opciones"],      
+          "lliurex-apt.mostrarEixida":["Mostrar salida"],
+          "lliurex-apt.finalitzat":["Finalizado"],
+          "llx.apt.description":["Configura los orígenes de software"]
+          
+}
+}

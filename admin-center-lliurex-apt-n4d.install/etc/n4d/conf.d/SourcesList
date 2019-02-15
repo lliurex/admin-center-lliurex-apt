@@ -1,0 +1,11 @@
+[SETUP]
+type=python
+path=SourcesList.py
+class=SourcesList
+[METHODS]
+mostrar=anonymous
+guardar=sudo,admins
+mostrarPropis=anonymous
+guardarPropis=sudo,admins
+test=anonymous
+execAptUpdate=sudo,admins

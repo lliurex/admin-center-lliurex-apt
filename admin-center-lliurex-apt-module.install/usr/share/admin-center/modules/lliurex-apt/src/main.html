@@ -1,0 +1,67 @@
+
+<div class="container" style='height:600px'>
+  <br/><br/>
+  <div class="row col-md-16">    
+         <div class='panel panel-primary col-md-4' style='padding:0px' >
+            <div id='lliurex-apt_panellRepositorisHeader1' class="panel-heading" i18n>lliurex-apt.repositoris</div>
+            <div id='lliurex-apt_mostrador_grafic2' class='panel-body'>              
+              <div class='form-group'>
+                <div id='lliurex-apt_botonsLliurex' class='checkbox' >
+                  <label>
+                    <input type="checkbox" onClick='lliurexapt_LAI.gestiona(&apos;Lliurex&apos;,lliurexapt_LAI.getrepositorisLliurexNet())'>&nbsp;<span id='lliurex-apt_textRepositorisLliurex' i18n>lliurex-apt.repositorisLliureX</span></input>
+                  </label>
+                </div>
+                <div id='lliurex-apt_botonsLocal' class='checkbox' >
+                  <label>
+                    <input type="checkbox" onClick='lliurexapt_LAI.gestiona(&apos;Local&apos;,lliurexapt_LAI.getrepositorisLocals())'>&nbsp;<span id='lliurex-apt_textRepositorisLocal' i18n>lliurex-apt.repositorisLocals</span></input>
+                  </label>
+                </div>
+                <div id='lliurex-apt_botonsAula' class='checkbox' >
+                  <label>
+                    <input type="checkbox" onClick='lliurexapt_LAI.gestiona(&apos;Aula&apos;,lliurexapt_LAI.getrespositoriServidorAula())' >&nbsp;<span id='lliurex-apt_textRepositorisAula' i18n>lliurex-apt.repositorisServidorAula</span></input>
+                  </label>
+                </div>
+                <div id='lliurex-apt_botonsGVA' class='checkbox' >
+                  <label>
+                    <input type="checkbox" onClick='lliurexapt_LAI.gestiona(&apos;GVA&apos;,lliurexapt_LAI.getrespositorisGVA())'>&nbsp;<span id='lliurex-apt_textRepositorisGVA' i18n>lliurex-apt.respositorisGVA</span></input>
+                  </label>
+                </div>
+
+                <div id='lliurex-apt_botonsEducatius' class='checkbox' >
+                  <label>
+                    <input type="checkbox" onClick='lliurexapt_LAI.gestiona(&apos;Educatius&apos;,lliurexapt_LAI.getrespositorisEducatius())'>&nbsp;<span id='lliurex-apt_textRepositorisEducatius' i18n>lliurex-apt.repositorisEducatius</span></input>
+                  </label>
+                </div>
+                <div id='lliurex-apt_botonsUbuntu' class='checkbox' >
+                  <label>
+                    <input type="checkbox" onClick='lliurexapt_LAI.gestiona(&apos;Ubuntu&apos;,lliurexapt_LAI.getrespositorisUbuntu())'>&nbsp;<span id='lliurex-apt_textRepositorisUbuntu' i18n>lliurex-apt.respositorisUbuntu</span></input>
+                  </label>
+                </div>
+              </div> 
+              
+              <hr>
+              <!-- Repositoris particulars-->
+              <div id='lliurex-apt_repositorisPropis' i18n>lliurex-apt</div>
+              <div class='input-group'><input id='lliurex-apt_repositoriManual' type='text' disabled class='form-control' placeholder='' aria-describedby='basic-addon1'><span class='input-group-addon' id='basic-addon1' onClick='lliurexapt_LAI.mostrarAfegirRespositori()'><div class='glyphicon glyphicon-plus' style='cursor:pointer'></div></span></div>
+              </div>
+                  <br/><div class='row' style='padding:40px'>
+                        <button id='lliurex-apt_btnOpcions' class='btn btn-primary btn-lg' onClick='lliurexapt_LAI.mostrarOpcions()' style='font-size:14px;padding-right:15px;padding-left:15px' i18n>lliurex-apt.opcions</button>
+                        <button id='lliurex-apt_btnAcceptar' class='btn btn-primary btn-lg' onClick='lliurexapt_LAI.AcceptarCanvis()' style='font-size:14px;padding-right:15px;padding-left:15px' i18n>lliurex-apt.acceptar</button>
+                        <button id='lliurex-apt_btnCancelar' class='btn btn-primary btn-lg' onClick='lliurexapt_LAI.CancelarClick()' style='font-size:14px;padding-right:15px;padding-left:15px' i18n>lliurex-apt.cancelar</button> </div>
+                  
+
+              
+              
+              
+              
+            <!--/div-->
+       </div>
+
+       <div class='panel panel-primary col-md-6 col-md-offset-1'  style='padding:0px;'>
+          <div class="panel-heading"><h3 class="panel-title" id='lliurex-apt_panellRepositorisHeader2' i18n>lliurex-apt.repositoris</h3></div>
+          <div id='lliurex-apt_mostrador_grafic' style='overflow-y:auto;height:100%;overflow-x:hidden' class='panel-cp body'></div>
+       </div>
+  </div>
+
+  
+</div>

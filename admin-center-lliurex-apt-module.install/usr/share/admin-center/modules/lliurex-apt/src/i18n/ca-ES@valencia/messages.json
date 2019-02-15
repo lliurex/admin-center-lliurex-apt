@@ -1,0 +1,28 @@
+{
+  "messages" : {
+    "" : {
+      "domain" : "lliurex-apt",
+      "lang"   : "ca_ES@valencia",
+      "plural_forms" : "nplurals=2; plural=(n != 1);"
+    },
+     "lliurex-apt.repositorisLocals":["Repositoris locals"],
+          "lliurex-apt.repositorisServidorAula":["Repositoris del servidor d'aula"],
+          "lliurex-apt.habilitarRepositori":["Habilita repositoris"],
+          "lliurex-apt.nom":["Nom"],
+          "lliurex-apt.repositori":["Repositori"],
+          "lliurex-apt.repositoris":["Repositoris"],
+          "lliurex-apt.afegirRepositori":["Afig un repositori"],
+          "lliurex-apt.cancelar":["Cancel·la"],
+          "lliurex-apt.actualitzantFontsPaquets":["S'estan actualitzant els orígens dels paquets"],
+          "lliurex-apt.espereuUnMoment":["Espereu un moment"],
+          "lliurex-apt.repositorisLliureX":["Repositoris de LliureX"],
+          "lliurex-apt.respositorisGVA":["Repositoris de GVA"],
+          "lliurex-apt.repositorisEducatius":["Repositoris de recursos educatius"],
+          "lliurex-apt.respositorisUbuntu":["Repositoris d'Ubuntu"],
+          "lliurex-apt.acceptar":["D'acord"],
+          "lliurex-apt.opcions":["Opcions"],      
+          "lliurex-apt.mostrarEixida":["Mostra l'eixida"],
+          "lliurex-apt.finalitzat":["Finalitzat"],
+          "llx.apt.description":["Configureu els orígens de programari"]
+}
+}

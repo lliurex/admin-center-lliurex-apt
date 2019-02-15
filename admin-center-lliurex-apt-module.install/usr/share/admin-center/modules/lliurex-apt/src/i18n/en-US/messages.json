@@ -1,0 +1,28 @@
+{
+  "messages" : {
+    "" : {
+      "domain" : "lliurex-apt",
+      "lang"   : "ca_ES@valencia",
+      "plural_forms" : "nplurals=2; plural=(n != 1);"
+    },
+     "lliurex-apt.repositorisLocals":["Local repositories"],
+          "lliurex-apt.repositorisServidorAula":["Classroom server respositories"],
+          "lliurex-apt.habilitarRepositori":["Enable repositories"],
+          "lliurex-apt.nom":["Name"],
+          "lliurex-apt.repositori":["Repository"],
+          "lliurex-apt.repositoris":["Repositories"],
+          "lliurex-apt.afegirRepositori":["Add repository"],
+          "lliurex-apt.cancelar":["Cancel"],
+          "lliurex-apt.actualitzantFontsPaquets":["Updating packages sources"],
+          "lliurex-apt.espereuUnMoment":["Wait a moment"],
+          "lliurex-apt.repositorisLliureX":["LliureX respositories"],
+          "lliurex-apt.respositorisGVA":["GVA repositories"],
+          "lliurex-apt.repositorisEducatius":["Educational resources repositories"],
+          "lliurex-apt.respositorisUbuntu":["Ubuntu repositories"],
+          "lliurex-apt.acceptar":["Accept"],
+          "lliurex-apt.opcions":["Options"],      
+          "lliurex-apt.mostrarEixida":["Show ouput"],
+          "lliurex-apt.finalitzat":["Done"],
+          "llx.apt.description":["Configure software sources"]
+}
+}
