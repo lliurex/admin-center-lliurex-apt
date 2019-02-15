@@ -1,3 +1,9 @@
+admin-center-lliurex-apt (0.1.4.18) bionic; urgency=medium
+
+  * Initial release for bionic
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Fri, 15 Feb 2019 09:48:12 +0100
+
 admin-center-lliurex-apt (0.1.4.8) xenial; urgency=high
 
   * Adding sudo group 
