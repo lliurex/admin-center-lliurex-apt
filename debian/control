@@ -2,8 +2,8 @@ Source: admin-center-lliurex-apt
 Section: admin
 Priority: optional
 Maintainer: Vicent Fernandez i Capilla <fercavi666@gmail.com>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 10)
+Standards-Version: 4.1.2
 Homepage: http://www.lliurex.net
 #Vcs-Git: git://git.debian.org/collab-maint/admin-center-lliurex-apt.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/admin-center-lliurex-apt.git;a=summary
