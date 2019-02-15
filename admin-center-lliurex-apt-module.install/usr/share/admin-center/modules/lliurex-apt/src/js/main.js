@@ -8,36 +8,36 @@
           this.visibleServidorsAula = false;      
           this.visibleGVA = false;
           this.repositorisLliurexNet = [
-            "deb http://lliurex.net/xenial xenial main restricted universe multiverse",
-            "deb http://lliurex.net/xenial xenial-updates main restricted universe multiverse",
-            "deb http://lliurex.net/xenial xenial-security main restricted universe multiverse"
+            "deb http://lliurex.net/bionic bionic main restricted universe multiverse",
+            "deb http://lliurex.net/bionic bionic-updates main restricted universe multiverse",
+            "deb http://lliurex.net/bionic bionic-security main restricted universe multiverse"
           ];
           this.repositorisLocals = [
-            "deb file:///net/mirror/llx16 xenial main restricted universe multiverse",
-            "deb file:///net/mirror/llx16  xenial-updates main restricted universe multiverse",
-            "deb file:///net/mirror/llx16  xenial-security main restricted universe multiverse"
+            "deb file:///net/mirror/llx19 bionic main restricted universe multiverse",
+            "deb file:///net/mirror/llx19 bionic-updates main restricted universe multiverse",
+            "deb file:///net/mirror/llx19 bionic-security main restricted universe multiverse"
           ];
           this.respositoriServidorAula = [
-            "deb http://mirror/llx16 xenial main restricted universe multiverse",
-            "deb http://mirror/llx16  xenial-updates main restricted universe multiverse",
-            "deb http://mirror/llx16  xenial-security main restricted universe multiverse"
+            "deb http://mirror/llx19 bionic main restricted universe multiverse",
+            "deb http://mirror/llx19 bionic-updates main restricted universe multiverse",
+            "deb http://mirror/llx19 bionic-security main restricted universe multiverse"
           ];
         this.respositorisUbuntu = [
-            "deb http://es.archive.ubuntu.com/ubuntu xenial main restricted universe multiverse",
-            "deb http://es.archive.ubuntu.com/ubuntu xenial-updates main restricted universe multiverse",
-            "deb http://es.archive.ubuntu.com/ubuntu xenial-security main restricted universe multiverse"
+            "deb http://es.archive.ubuntu.com/ubuntu bionic main restricted universe multiverse",
+            "deb http://es.archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse",
+            "deb http://es.archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse"
           
         ];
         this.respositorisEducatius = [
          "deb http://lliurex.net/recursos-edu xenial main restricted universe multiverse",
         ];
         this.respositorisGVA = [
-          "deb http://repositorios.gva.es/dgti/xenial xenial main restricted universe multiverse",
-          "deb http://repositorios.gva.es/dgti/xenial xenial-updates main restricted universe multiverse",
-          "deb http://repositorios.gva.es/dgti/xenial xenial-security main restricted universe multiverse",
-          "deb http://repositorios.gva.es/dgti/xenial-gva xenial main restricted universe multiverse",
-          "deb http://repositorios.gva.es/dgti/xenial-gva xenial main restricted universe multiverse",
-          "deb http://repositorios.gva.es/dgti/xenial-gva xenial main restricted universe multiverse",
+          "deb http://repositorios.gva.es/dgti/bionic bionic main restricted universe multiverse",
+          "deb http://repositorios.gva.es/dgti/bionic bionic-updates main restricted universe multiverse",
+          "deb http://repositorios.gva.es/dgti/bionic bionic-security main restricted universe multiverse",
+          "deb http://repositorios.gva.es/dgti/bionic-gva bionic main restricted universe multiverse",
+          "deb http://repositorios.gva.es/dgti/bionic-gva bionic main restricted universe multiverse",
+          "deb http://repositorios.gva.es/dgti/bionic-gva bionic main restricted universe multiverse",
         ];
         this.repositorisPropis = [];
     }
