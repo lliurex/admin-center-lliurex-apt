@@ -1,0 +1,22 @@
+Source: admin-center-lliurex-apt
+Section: admin
+Priority: optional
+Maintainer: Vicent Fernandez i Capilla <fercavi666@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.5
+Homepage: http://www.lliurex.net
+#Vcs-Git: git://git.debian.org/collab-maint/admin-center-lliurex-apt.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/admin-center-lliurex-apt.git;a=summary
+
+Package: admin-center-lliurex-apt-module
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, admin-center, admin-center-lliurex-apt-n4d
+Description: gui module for LliureX admin-center
+ gui module for LliureX admin-center, needed to configure /etc/apt/sources.list from web admin-center panel.
+
+Package: admin-center-lliurex-apt-n4d
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, n4d
+Description: plugin to manage /etc/apt/sources.list from n4d
+ Python plugin to manage /etc/apt/sources.list from n4d.
+

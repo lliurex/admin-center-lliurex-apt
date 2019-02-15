@@ -1,0 +1,74 @@
+admin-center-lliurex-apt (0.1.4.8) xenial; urgency=high
+
+  * Adding sudo group 
+
+ -- Hector Garcia Huerta <hectorgh@gmail.com>  Wed, 13 Feb 2019 09:12:42 +0100
+
+admin-center-lliurex-apt (0.1.4.7) xenial; urgency=medium
+
+  * Fixed mirror name of sources list
+  * Fixed bug in Cancel button
+
+ -- Juan Ramon Pelegrina <juapesai@hotmail.com>  Tue, 09 May 2017 14:05:35 +0200
+
+admin-center-lliurex-apt (0.1.4.6) xenial; urgency=high
+
+  * Fixed i18n
+
+ -- Jose A. Murcia <joamuran@gmail.com>  Thu, 19 Jan 2017 11:16:07 +0100
+
+admin-center-lliurex-apt (0.1.4.5) xenial; urgency=high
+
+  * Fixed dialog bugs
+
+ -- Jose <joamuran@gmail.com>  Mon, 19 Dec 2016 21:35:10 +0100
+
+admin-center-lliurex-apt (0.1.4.4) xenial; urgency=high
+
+  * Added module descriptiom, header and icon
+
+ --  <joamuran@gmail.com>  Wed, 14 Dec 2016 12:06:45 +0100
+
+admin-center-lliurex-apt (0.1.4.3) xenial; urgency=high
+
+  * Race condition fixed in asynchronous calls to n4d
+
+ -- Vicent Fernandez i Capilla <fercavi666@gmail.com>  Mon, 12 Dec 2016 10:04:53 +0100
+
+admin-center-lliurex-apt (0.1.4.2) xenial; urgency=medium
+
+  * Bug: Material Checkbox not created when added new repositori
+  * Bug: Repository not dismarked from checkbox list when removed manualy
+
+ -- Vicent Fernandez i Capilla <vfernandezc@llx-vfernandez.edu.gva.es>  Tue, 17 May 2016 09:59:50 +0200
+
+admin-center-lliurex-apt (0.1.4.1) xenial; urgency=medium
+
+  * Fixed valencian translation
+
+ -- Vicent Fernandez i Capilla <vfernandezc@llx-vfernandez.edu.gva.es>  Thu, 12 May 2016 12:15:14 +0200
+
+admin-center-lliurex-apt (0.1.4) xenial; urgency=medium
+
+  * i18 capable
+  * Fixed
+
+ -- Vicent Fernandez i Capilla <vfernandezc@llx-vfernandez.edu.gva.es>  Thu, 12 May 2016 11:55:07 +0200
+
+admin-center-lliurex-apt (0.1.3) xenial; urgency=medium
+
+  * Fixed duplicated material checkboxes 
+
+ -- Vicent Fernandez i Capilla <vfernandezc@llx-vfernandez.edu.gva.es>  Tue, 10 May 2016 13:40:35 +0200
+
+admin-center-lliurex-apt (0.1.2) xenial; urgency=medium
+
+  * Fixed bugs
+
+ -- Vicent Fernandez i Capilla <vfernandezc@llx-vfernandez.edu.gva.es>  Tue, 10 May 2016 12:25:59 +0200
+
+admin-center-lliurex-apt (0.1.1) xenial; urgency=high
+
+  * Initial Release.
+
+ -- Vicent Fernandez i Capilla <fercavi666@gmail.com>  Mon, 02 May 2016 12:56:28 +0200
